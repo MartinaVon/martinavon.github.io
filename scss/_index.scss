@@ -1,0 +1,87 @@
+.section-for-presentation {
+    height: 90vh;
+    width: 100%;
+    background-color: #A4A47E;
+    position: relative;
+    overflow: hidden;
+
+    .presentation__title {
+        width: 100%;
+        padding: 50px 10px 0px 10px;
+        display: flex;
+        overflow-wrap:break-word;
+        color: white;
+        flex-direction: column;
+        
+        h2 {
+            font-size: 95px;
+            position: relative;
+            z-index: 1;
+            line-height: 80px;
+        }
+    }   
+      
+    .box-for-presentation-image {
+        height: 250px;
+        width: 450px;
+        object-fit: cover;
+        background-image: url(/assets/img/23782659-65da-4585-8933-99357177f099.jpg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        left: 40%;
+        top: 25%;
+    }    
+}
+
+.section-for-info {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    overflow: hidden;
+
+
+    .info-title-container {
+        font-size: 25px;
+        h3 {
+            font-weight: 800;
+        }
+    }
+    .info-second-title-container {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .info-watch-more {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        margin-top: 70px;
+        color: #7C7E45;
+        font-size: 40px;
+        h6 {
+            font-size: 20px;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
+.section-for-about {
+    width: 100%;
+    
+   
+}
+
+.section-for-work {
+    height: 50vh;
+    width: 100%;
+}
+.section-for-contact {
+    width: 100%;
+}

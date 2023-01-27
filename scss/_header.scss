@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 5px;
+    background-color: #A4A47E;
+    justify-content: space-between;
+    color: white;
+
+    .container-for-name {
+        padding: 15px 15px;
+        font-size: 10px;
+        width: 80%;
+        font-size: 13px;
+    }
+    nav {
+        ul {
+            display: none;
+        }
+    }
+    .hamburger-menu {
+        font-size: 40px;
+        margin-right: 10px;
+    }
+}

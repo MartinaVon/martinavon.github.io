@@ -68,12 +68,15 @@ header .hamburger-menu {
 
 .section-for-info {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
   text-align: left;
   overflow: hidden;
+  background-color: #A4A47E;
+  color: white;
+  text-align: right;
 }
 .section-for-info .info-title-container {
   font-size: 25px;
@@ -85,6 +88,7 @@ header .hamburger-menu {
   width: 100%;
   font-size: 30px;
   margin-top: 15px;
+  text-align: left;
 }
 .section-for-info .info-watch-more {
   height: auto;
@@ -92,9 +96,12 @@ header .hamburger-menu {
   flex-direction: column;
   justify-content: center;
   text-align: right;
-  margin-top: 70px;
+  margin-top: 80px;
   color: #7C7E45;
-  font-size: 40px;
+  overflow-wrap: break-word;
+  font-size: 60px;
+  padding: 5px;
+  background-color: white;
 }
 .section-for-info .info-watch-more h6 {
   font-size: 20px;
@@ -104,6 +111,15 @@ header .hamburger-menu {
 
 .section-for-about {
   width: 100%;
+  height: 100vh;
+}
+.section-for-about h3 {
+  font-size: 90px;
+}
+.section-for-about img {
+  height: 400px;
+  width: 200px;
+  object-fit: contain;
 }
 
 .section-for-work {

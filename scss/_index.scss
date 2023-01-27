@@ -81,15 +81,23 @@
 }
 .section-for-about {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 100vh;
-
+    padding: 10px;
     h3 {
         font-size: 90px;
+        color: #7C7E45;
     }
     img {
-        height: 400px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
         object-fit: contain;
+    }
+    p {
+        margin-top: 15px;
+        font-size: 20px;
     }
     
    

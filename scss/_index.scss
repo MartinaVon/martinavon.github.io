@@ -19,31 +19,32 @@
             z-index: 1;
             line-height: 80px;
         }
+
     }   
       
     .box-for-presentation-image {
-        height: 250px;
-        width: 450px;
+        height: 300px;
+        width: 500px;
         object-fit: cover;
         background-image: url(/assets/img/23782659-65da-4585-8933-99357177f099.jpg);
         background-position: center;
         background-size: cover;
         position: absolute;
         left: 40%;
-        top: 25%;
+        top: 20%;
     }    
 }
 
 .section-for-info {
     width: 100%;
     height: 120vh;
-    padding: 10px;
+    padding: 100px 10px;
     display: flex;
     flex-direction: column;
     text-align: left;
     overflow: hidden;
-    background-color: #A4A47E;
-    color: white;
+    background-color: #1F1717;
+    color: rgb(238, 234, 234);
     text-align: right;
 
 
@@ -66,19 +67,42 @@
         justify-content: center;
         text-align: right;
         margin-top: 80px;
-        color: #7C7E45;
+        color: #b8b983;
+        background-color: #1F1717;
         overflow-wrap:break-word;
-        font-size: 60px;
+        font-size: 65px;
         padding: 5px;
-        background-color: white;
         h6 {
             font-size: 20px;
-            text-decoration: underline;
             margin-bottom: 10px;
         }
-    }
-    
+        h4 {
+            line-height: 60px;
+        } 
+    }   
 }
+
+.section-for-work {
+    background-color: #1F1717;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    h4 {
+        color: rgb(238, 234, 234);
+        font-size: 50px;
+        width: 100%;
+        border-bottom: 1px solid rgb(238, 234, 234);
+        
+    }
+}
+
+
+
+
 .section-for-about {
     width: 100%;
     display: flex;
@@ -86,9 +110,14 @@
     justify-content: flex-start;
     height: 100vh;
     padding: 10px;
+    background-color: #A4A47E;
     h3 {
-        font-size: 90px;
-        color: #7C7E45;
+        color: white;
+        font-size: 50px;
+        width: 100%;
+        border-bottom: 1px solid white;
+        text-align: right;
+        margin-bottom: 20px;
     }
     img {
         height: 250px;
@@ -98,15 +127,15 @@
     p {
         margin-top: 15px;
         font-size: 20px;
+        color: white;
     }
     
    
 }
 
-.section-for-work {
-    height: 50vh;
-    width: 100%;
-}
+
 .section-for-contact {
     width: 100%;
+    background-color: #1F1717;
+    height: 80vh;
 }

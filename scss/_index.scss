@@ -3,6 +3,9 @@
     width: 100%;
     background-color: #A4A47E;
     position: relative;
+    background-image: url(/assets/img/fondo2.jpg);
+    background-position: 50px;
+    background-repeat: no-repeat;
     overflow: hidden;
 
     .presentation__title {
@@ -43,7 +46,6 @@
     flex-direction: column;
     text-align: left;
     overflow: hidden;
-    background-color: #1F1717;
     color: rgb(238, 234, 234);
     text-align: right;
 
@@ -68,7 +70,6 @@
         text-align: right;
         margin-top: 80px;
         color: #b8b983;
-        background-color: #1F1717;
         overflow-wrap:break-word;
         font-size: 65px;
         padding: 5px;
@@ -83,14 +84,13 @@
 }
 
 .section-for-work {
-    background-color: #1F1717;
     height: 100vh;
     width: 100%;
     padding: 100px 10px;
     display: flex;
     flex-direction: column;
     text-align: left;
-
+    
     h4 {
         color: rgb(238, 234, 234);
         font-size: 50px;
@@ -102,7 +102,6 @@
 
 
 
-
 .section-for-about {
     width: 100%;
     display: flex;
@@ -110,7 +109,6 @@
     justify-content: flex-start;
     height: 100vh;
     padding: 10px;
-    background-color: #A4A47E;
     h3 {
         color: white;
         font-size: 50px;

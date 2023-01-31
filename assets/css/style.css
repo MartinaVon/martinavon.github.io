@@ -10,6 +10,11 @@
   font-weight: 300;
 }
 
+body {
+  background-image: url(/assets/img/fondo.jpg);
+  background-position: 300px;
+}
+
 header {
   width: 100%;
   height: 80px;
@@ -38,6 +43,9 @@ header .hamburger-menu {
   width: 100%;
   background-color: #A4A47E;
   position: relative;
+  background-image: url(/assets/img/fondo2.jpg);
+  background-position: 50px;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .section-for-presentation .presentation__title {
@@ -74,7 +82,6 @@ header .hamburger-menu {
   flex-direction: column;
   text-align: left;
   overflow: hidden;
-  background-color: #1F1717;
   color: rgb(238, 234, 234);
   text-align: right;
 }
@@ -98,7 +105,6 @@ header .hamburger-menu {
   text-align: right;
   margin-top: 80px;
   color: #b8b983;
-  background-color: #1F1717;
   overflow-wrap: break-word;
   font-size: 65px;
   padding: 5px;
@@ -112,7 +118,6 @@ header .hamburger-menu {
 }
 
 .section-for-work {
-  background-color: #1F1717;
   height: 100vh;
   width: 100%;
   padding: 100px 10px;
@@ -134,7 +139,6 @@ header .hamburger-menu {
   justify-content: flex-start;
   height: 100vh;
   padding: 10px;
-  background-color: #A4A47E;
 }
 .section-for-about h3 {
   color: white;

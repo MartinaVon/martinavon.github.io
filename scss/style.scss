@@ -12,7 +12,11 @@
 }
 body {
     background-image: url(/assets/img/fondo.jpg);
-    background-position: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 

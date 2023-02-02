@@ -11,8 +11,8 @@
 }
 
 body {
-  background-image: url(/assets/img/fondo.jpg);
-  background-size: cover;
+  background-image: url(/assets/img/fondo5.jpg);
+  background-position: center;
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
@@ -112,6 +112,7 @@ header .hamburger-menu {
 .section-for-info .info-watch-more h6 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: white;
 }
 .section-for-info .info-watch-more h4 {
   line-height: 60px;
@@ -191,6 +192,15 @@ header .hamburger-menu {
   outline: none;
   border-bottom: solid 3px white;
 }
+.section-for-contact form input::-moz-placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
+.section-for-contact form input:-ms-input-placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
+.section-for-contact form input::placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
 .section-for-contact form textarea {
   background-color: transparent;
   border: none;
@@ -205,6 +215,23 @@ header .hamburger-menu {
 .section-for-contact form textarea:focus {
   outline: none;
   border-bottom: solid 3px white;
+}
+.section-for-contact form textarea::-moz-placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
+.section-for-contact form textarea:-ms-input-placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
+.section-for-contact form textarea::placeholder {
+  color: rgba(241, 241, 241, 0.555);
+}
+.section-for-contact form button {
+  background-color: white;
+  padding: 5px 20px;
+  margin: 10px;
+  font-size: 20px;
+  border: solid white 1px;
+  color: #201718;
 }
 .section-for-contact h5 {
   font-size: 40px;
